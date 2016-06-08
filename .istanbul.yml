@@ -1,0 +1,7 @@
+verbose: true
+instrumentation:
+   excludes: ['spec/**',
+              '**/bower_components/**', 'karma.conf.js',
+              'private/js/*.js', 'coverageFrontEnd/**',
+              'scripts/*']
+   include-all-sources: true
